@@ -17,3 +17,8 @@ npm run dev
 3. Hit API [http://localhost:8080](http://localhost:8080)
 
 4. Test API endpoints
+
+## Technologies
+
+- Node.js
+- Express.js
