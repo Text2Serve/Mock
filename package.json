@@ -4,11 +4,15 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "node --experimental-json-modules server.js"
+    "build": "tsc",
+    "dev": "tsc && node --experimental-json-modules ./dist/server.js"
   },
   "author": "Aaron Nguyen",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
   }
 }
