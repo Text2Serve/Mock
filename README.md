@@ -111,7 +111,7 @@ npm run dev
     **Content:**
 
     ```json
-    {"message": "404}
+    { "message": "404" }
     ```
 
 ---
@@ -157,5 +157,5 @@ npm run dev
     **Content:**
 
     ```json
-    {"message": "404}
+    { "message": "404" }
     ```
