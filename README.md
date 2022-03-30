@@ -150,13 +150,9 @@ npm run dev
       "data": [
         {
           "id": "25ed2016-a6f2-483b-a89f-a16881bdc3aa",
-          "members": [
-            {
-              "userId": "3a578a79-fd94-4eea-837f-e1b53625f975"
-            },
-            {
-              "userId": "c7e1a461-d10b-44c2-af7a-d5154ce7dda2"
-            }
+          "userIds": [
+            "3a578a79-fd94-4eea-837f-e1b53625f975",
+            "c7e1a461-d10b-44c2-af7a-d5154ce7dda2"
           ]
         }
       ]
