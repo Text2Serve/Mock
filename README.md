@@ -116,15 +116,21 @@ npm run dev
 
 ---
 
-### Get Messages
+### Get Conversations
 
 - **URL**
 
-  `/conversations`
+  `/conversations/:userId`
 
 - **Method**
 
   `GET`
+
+- **URL Params**
+
+  **Required:**
+
+  `userId=[string]`
 
 - **Success Response**
 
