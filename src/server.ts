@@ -10,7 +10,7 @@ app.get("/", (_req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/conversations:userId", (req, res) => {
+app.get("/conversations/:userId", (req, res) => {
   const data = conversations.filter((conversation) =>
     conversation.userIds.includes(req.params.userId)
   );
