@@ -2,6 +2,13 @@
 
 ## Getting Started
 
+0. Clone repository and access directory
+
+```bash
+git clone https://github.com/Text2Serve/Mock
+cd Mock
+```
+
 1. Install dependencies
 
 ```bash
